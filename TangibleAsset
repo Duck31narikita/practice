@@ -1,0 +1,14 @@
+public abstract class TangibleAsset{
+  private String name;
+  private int prise;
+  private String colr;
+  
+  public TangibleAsset(String name,int prise,String color){
+    this.name = name;
+    this.prise = prise;
+    this.color = color;
+    }
+  public String getName(){return this.name;}
+  public int getPrise(){return this.prise;}
+  public String getColor(){return this.color;}
+ }
